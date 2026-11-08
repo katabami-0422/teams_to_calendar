@@ -39,12 +39,16 @@ Teams にログインしたブラウザ（Playwright）
 
 ## セットアップ
 
-### 1. 依存関係の導入
-
-リポジトリをクローンしたフォルダに移動して、依存関係を導入します。
+### 0. 入手
 
 ```bash
-cd teams-assignments-to-gcal
+git clone https://github.com/katabami-0422/teams_to_calendar
+cd teams_to_calendar
+```
+
+### 1. 依存関係の導入
+
+```bash
 npm install
 pip install pymupdf
 ```
