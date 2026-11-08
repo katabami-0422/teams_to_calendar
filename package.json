@@ -1,0 +1,20 @@
+{
+  "name": "teams-assignments-to-gcal",
+  "version": "1.0.0",
+  "description": "Microsoft Teams の課題締切をブラウザ経由で取得し Google Calendar に同期する CLI",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "teams:login": "node src/teams-login.js",
+    "auth:google": "node src/google-auth.js",
+    "sync": "node src/sync.js",
+    "sync:dry-run": "node src/sync.js --dry-run"
+  },
+  "dependencies": {
+    "googleapis": "^189.0.0",
+    "playwright": "^1.65.0"
+  }
+}

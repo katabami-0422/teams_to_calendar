@@ -1,0 +1,10 @@
+node_modules/
+.env
+tokens/
+state.json
+profile/
+endpoints.json
+files/
+test_ocr.png
+test_ocr.pdf
+ocr_out.txt
